@@ -1,10 +1,10 @@
 import Header from "./components/Header";
-
+import { ThemeProvider } from "styled-components";
 function App() {
 	return (
-		<div className="App">
+		<ThemeProvider>
 			<Header />
-		</div>
+		</ThemeProvider>
 	);
 }
 
