@@ -1,8 +1,8 @@
-import SocialIcons from "./SocialIcons";
-import { Container } from "./styles/Container.styled";
-import { Flex } from "./styles/Flex.styled";
-import { StyledFooter } from "./styles/Footer.styled";
-import { Logo } from "./styles/Header.styled";
+import Social from "./Social";
+import { Flex } from "./styles/Flex.Styled";
+import { StyledFooter } from "./styles/Footer.Styled";
+import { Logo } from "./styles/Header.Styled";
+import { Container } from "./styles/Container.Styled";
 
 export default function Footer() {
 	return (
@@ -16,8 +16,8 @@ export default function Footer() {
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua
 						</li>
-						<li>+1-543-123-4567</li>
-						<li>example@huddle.com</li>
+						<li>+1-246-255-4567</li>
+						<li>example@siya.com</li>
 					</ul>
 					<ul>
 						<li>About Us</li>
@@ -31,10 +31,10 @@ export default function Footer() {
 						<li>Contact Us</li>
 					</ul>
 
-					<SocialIcons />
+					<Social />
 				</Flex>
 
-				<p>&copy; 2021 Huddle. All rights reserved</p>
+				<p>&copy; 2021 Siya. All rights reserved</p>
 			</Container>
 		</StyledFooter>
 	);
