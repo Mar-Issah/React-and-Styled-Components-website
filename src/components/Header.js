@@ -1,10 +1,17 @@
 import React from "react";
-import { StyledHeader } from "./styles/Header";
+import { StyledHeader, Nav, Logo } from "./styles/Header.Styled";
+import { Container } from "./styles/Container.Styled";
+import { Button } from "./styles/Button.Styled";
 
 const Header = () => {
 	return (
-		<StyledHeader bg="red">
-			<h1>Huddle</h1>
+		<StyledHeader>
+			<Container>
+				<Nav>
+					<Logo>Siya</Logo>
+					<Button>Explore</Button>
+				</Nav>
+			</Container>
 		</StyledHeader>
 	);
 };

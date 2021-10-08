@@ -1,13 +1,14 @@
 import Header from "./components/Header";
 import { ThemeProvider } from "styled-components";
-import GlobalStyles from "./components/styles/Header";
+import GlobalStyles from "./components/styles/Global.Styled";
 
 const theme = {
 	colors: {
-		header: "#ebfbff",
+		header: "#8bf576",
 		body: "#fff",
-		footer: "#003333",
+		footer: "#000",
 	},
+	mobile: "768px",
 };
 function App() {
 	return (
